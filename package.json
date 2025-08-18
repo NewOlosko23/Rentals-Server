@@ -1,0 +1,37 @@
+{
+  "name": "khc-server",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "lint": "echo \"(add eslint if you wish)\""
+  },
+  "dependencies": {
+    "africastalking": "^0.5.9",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailjet": "^0.0.1",
+    "mongoose": "^8.17.1",
+    "morgan": "^1.10.1",
+    "multer": "^1.4.5-lts.2",
+    "node-mailjet": "^6.0.9",
+    "pino": "^9.9.0",
+    "pino-pretty": "^11.3.0",
+    "rate-limiter-flexible": "^5.0.5",
+    "sharp": "^0.33.5",
+    "streamifier": "^0.1.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^9.0.1"
+  }
+}
