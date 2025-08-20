@@ -80,16 +80,7 @@ export const register = asyncHandler(async (req, res) => {
 
   res.json({
     token,
-    user: {
-      id: user._id,
-      userType: user.userType,
-      email: user.email,
-      phone: user.phone,
-      username: user.username,
-      role: user.role,
-      isVerified: user.isVerified,
-      subscribed: user.subscribed,
-    },
+    user,
   });
 });
 
@@ -107,16 +98,7 @@ export const login = asyncHandler(async (req, res) => {
 
   res.json({
     token,
-    user: {
-      id: user._id,
-      userType: user.userType,
-      email: user.email,
-      phone: user.phone,
-      username: user.username,
-      role: user.role,
-      isVerified: user.isVerified,
-      subscribed: user.subscribed,
-    },
+    user,
   });
 });
 
